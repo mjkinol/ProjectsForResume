@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<!--prefWidth="${screen.visualBounds.height}" prefHeight="${screen.visualBounds.height}"-->
+
+<AnchorPane prefHeight="700.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hockey.java.controller.MenuController">
+   <children>
+      <ImageView fitHeight="700.0" fitWidth="400.0">
+         <image>
+            <Image url="@../../Images/background.jpeg" />
+         </image>
+         <effect>
+            <GaussianBlur />
+         </effect>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fcfcfc" height="263.0" layoutY="-16.0" opacity="0.7" stroke="WHITE" strokeType="INSIDE" width="400.0">
+         <effect>
+            <GaussianBlur radius="63.0" />
+         </effect>
+      </Rectangle>
+      <Label fx:id="appTitle" alignment="CENTER" layoutX="107.0" layoutY="67.0" prefHeight="42.0" prefWidth="187.0" scaleX="2.0" scaleY="2.0" scaleZ="2.0" text="Hockey Master" textAlignment="CENTER">
+         
+         <font>
+            <Font name="HockeyFont" size="20.0" url="@../../Fonts/HockeyFont.ttf" />
+         </font>
+         <effect>
+            <DropShadow color="WHITE" height="58.52" radius="20.96" spread="0.22" width="27.32" />
+         </effect></Label>
+      <Label fx:id="pageTitle" alignment="CENTER" layoutX="138.0" layoutY="144.0" prefHeight="28.0" prefWidth="125.0" scaleX="2.0" scaleY="2.0" scaleZ="2.0" text="Main Menu" textAlignment="CENTER">
+         <font>
+            <Font name="HockeyFont" size="20.0" url="@../../Fonts/HockeyFont.ttf" />
+         </font>
+         <effect>
+            <DropShadow color="WHITE" height="60.89" radius="30.66" spread="0.66" width="63.75" />
+         </effect></Label>
+      <Button fx:id="login" layoutX="142.0" layoutY="380.0" mnemonicParsing="false" onAction="#goLogin" prefHeight="31.0" prefWidth="118.0" scaleX="2.0" scaleY="2.0" scaleZ="2.0" text="Login">
+         <font>
+            <Font name="HockeyFont" size="13.0" url="@../../Fonts/HockeyFont.ttf" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect></Button>
+      <Button fx:id="signup" layoutX="142.0" layoutY="464.0" mnemonicParsing="false" onAction="#goSignup" prefHeight="31.0" prefWidth="118.0" scaleX="2.0" scaleY="2.0" scaleZ="2.0" text="Sign Up">
+   	     <font>
+            <Font name="HockeyFont" size="13.0" url="@../../Fonts/HockeyFont.ttf" />
+         </font>
+         <effect>
+            <InnerShadow choke="0.06" radius="15.3125" width="42.25" />
+         </effect></Button>
+      <Button fx:id="playAsGuest" layoutX="142.0" layoutY="547.0" mnemonicParsing="false" onAction="#playAsGuest" prefHeight="31.0" prefWidth="118.0" scaleX="2.0" scaleY="2.0" scaleZ="2.0" text="PLAY AS GUEST">
+         <font>
+            <Font name="HockeyFont" size="13.0" url="@../../Fonts/HockeyFont.ttf" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+   </children>
+</AnchorPane>

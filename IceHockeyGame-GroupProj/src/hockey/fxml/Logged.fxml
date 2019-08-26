@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<!--prefWidth="${screen.visualBounds.height}" prefHeight="${screen.visualBounds.height}"-->
+
+<AnchorPane prefHeight="700.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hockey.java.controller.LoggedController">
+   <children>
+      <ImageView fitHeight="700.0" fitWidth="400.0">
+         <image>
+            <Image url="@../../Images/background.jpeg" />
+         </image>
+         <effect>
+            <GaussianBlur />
+         </effect>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fcfcfc" height="263.0" opacity="0.7" stroke="WHITE" strokeType="INSIDE" width="400.0">
+         <effect>
+            <GaussianBlur radius="63.0" />
+         </effect>
+      </Rectangle>
+      <Label fx:id="appTitle" alignment="CENTER" layoutX="111.0" layoutY="76.0" prefHeight="28.0" prefWidth="178.0" scaleX="2.0" scaleY="2.0" scaleZ="2.0" text="Hockey Master" textAlignment="CENTER">
+         
+         <font>
+            <Font name="OLD SPORT 01 COLLEGE NCV" size="21.0" />
+         </font>
+         <effect>
+            <DropShadow color="WHITE" height="58.95" radius="26.317500000000003" spread="0.35" width="48.32" />
+         </effect></Label>
+      <Label fx:id="pageTitle" alignment="CENTER" layoutX="140.0" layoutY="146.0" prefHeight="28.0" prefWidth="123.0" scaleX="2.0" scaleY="2.0" scaleZ="2.0" text="Main Menu" textAlignment="CENTER">
+         <font>
+            <Font name="OLD SPORT 01 COLLEGE NCV" size="21.0" />
+         </font>
+         <effect>
+            <DropShadow color="WHITE" height="48.32" radius="29.7325" spread="0.55" width="72.61" />
+         </effect></Label>
+      <Label fx:id="message" layoutX="14.0" layoutY="497.0" prefHeight="34.0" prefWidth="372.0" textAlignment="CENTER" textFill="#c30c0c">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Button fx:id="playLogged" layoutX="144.0" layoutY="354.0" mnemonicParsing="false" onAction="#playLogged" prefHeight="35.0" prefWidth="114.0" scaleX="2.0" scaleY="2.0" scaleZ="2.0" text="Join Game">
+         <font>
+            <Font name="HockeyFont" size="17.0" url="@../../Fonts/HockeyFont.ttf" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect></Button>
+      <Button fx:id="stats" layoutX="125.0" layoutY="447.0" mnemonicParsing="false" onAction="#goStats" prefHeight="41.0" prefWidth="150.0" scaleX="1.5" scaleY="1.5" text="Stats">
+      	 <font>
+            <Font name="OLD SPORT 01 COLLEGE NCV" size="21.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect></Button>
+      <Button fx:id="signout" layoutX="89.0" layoutY="531.0" mnemonicParsing="false" onAction="#signout" prefHeight="63.0" prefWidth="225.0" text="Sign out">
+         <font>
+            <Font name="OLD SPORT 01 COLLEGE NCV" size="28.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect></Button>
+   </children>
+</AnchorPane>

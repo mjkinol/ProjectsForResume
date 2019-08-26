@@ -1,0 +1,101 @@
+@font-face {
+	font-family: 'CF';
+	src: url('A3Images/SavoyeLET.ttc') format('truetype');
+}
+@font-face {
+	font-family: 'thin';
+	src: url('A3Images/AvenirNext/AvenirNext-thin.ttf') format('truetype');
+}
+
+#profile{
+	border: none;
+	position: fixed;
+	top: 3%;
+	left: 79%;
+	padding: 0px;
+	color: white;
+	background-color: Transparent;
+	font-size: 165%;
+	font-family: 'thin';
+}
+
+#SignO{
+	border: none;
+	position: fixed;
+	top: 3%;
+	left: 87%;
+	padding: 0px;
+	color: white;
+	background-color: Transparent;
+	font-size: 165%;
+	font-family: 'thin';
+}
+
+#log{
+	border: none;
+	position: fixed;
+	top: 3%;
+	left: 79%;
+	padding: 0px;
+	color: white;
+	background-color: Transparent;
+	font-size: 165%;
+	font-family: 'thin';
+}
+
+#reg{
+	border: none;
+	position: fixed;
+	top: 3%;
+	left: 87%;
+	padding: 0px;
+	color: white;
+	background-color: Transparent;
+	font-size: 165%;
+	font-family: 'thin';
+}
+
+input[type=submit]#title{
+	border-radius: 4px;
+	border: None;
+	text-align: center;
+	width: 18%;
+	height: 6%;
+    color: white;
+    padding: 0px;
+    background-color: Transparent;
+    opacity: 0.8; 
+    position: fixed;
+    top: 2%;
+    left: 1.5%;
+    font-size: 325%;
+    font-weight: bold;
+	font-family: 'CF';
+}
+
+#banner{
+	background: black;
+	width: 100%;
+	padding-right:690px;
+	padding-top: 2px;
+	position: fixed;
+	top: -10px;
+}
+
+.page-bk{
+	position: fixed;
+	background: linear-gradient( rgba(0, 0, 0, 0.34), rgba(0, 0, 0, 0.35) ), url("A3Images/background.jpg");
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	filter: blur(2.5px);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+ 	background-size: cover;	
+}
+
+body {
+	background-color: black;
+}

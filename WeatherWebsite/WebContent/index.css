@@ -1,0 +1,68 @@
+@font-face {
+	font-family: 'thin';
+	src: url('A3Images/AvenirNext/AvenirNext-UltraLight.ttf') format('truetype');
+}
+
+.img{
+	position: fixed;
+    top: 25%;
+    left: 37.3%;
+}
+
+#bar::placeholder{
+	color:#e1e1e6;
+}
+
+input[type=text]{
+	border: 1px solid white;
+	font-style: italic;
+	text-align: left;
+	width: 27%;
+	line-height:2.5em;
+    color: #edf0f8;
+    font-size: 16px;
+    padding: 0px;
+    background-color: grey;
+    opacity: 0.8;
+    position: fixed;
+    top: 61%;
+    left: 36%;
+}
+
+input[type=radio]#bubb1{
+    position: fixed;
+    top: 68%;
+    left: 40%;
+}
+
+.bubbles h2{
+	font-family: 'thin';
+	color: white;
+	font-size: 16px;
+	position: fixed;
+    top: 66.2%;
+    left: 42%;
+}
+
+.bubbles h3{
+	font-family: 'thin';
+	color: white;
+	font-size: 16px;
+	position: fixed;
+	top: 65.8%;
+    left: 49.1%;
+}
+
+input[type=radio]#bubb2{
+    position: fixed;
+    top: 68%;
+    left: 47%;
+}
+
+input[type=image]{
+	height: 4%;
+	width: 2.7%;
+	position: fixed;
+    top: 61.8%;
+    left: 59%;
+}

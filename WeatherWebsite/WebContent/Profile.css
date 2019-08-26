@@ -1,0 +1,76 @@
+@font-face {
+	font-family: 'thin';
+	src: url('A3Images/AvenirNext/AvenirNext-UltraLight.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'norm';
+	src: url('A3Images/AvenirNext/AvenirNext-Regular.ttf') format('truetype');
+}
+
+#profile{
+	border: none;
+	position: fixed;
+	top: 3%;
+	left: 79%;
+	padding: 0px;
+	color: white;
+	background-color: Transparent;
+	font-size: 165%;
+	font-family: 'thin';
+}
+
+#SignO{
+	border: none;
+	position: fixed;
+	top: 3%;
+	left: 87%;
+	padding: 0px;
+	color: white;
+	background-color: Transparent;
+	font-size: 165%;
+	font-family: 'thin';
+}
+
+#userHistory{
+	position: fixed;
+	font-size: 33px;
+	font-family: 'norm';
+	color:white;
+	top: 20%;
+	left: 38%;
+}
+
+.dTable tbody{
+	overflow:scroll;
+}
+
+.dTable{
+
+}
+
+.dTable table{
+	display: block;
+	text-align:center;
+	position: fixed;
+	overflow:scroll;
+	height: 50%;
+	width: 12.17%;
+	top: 32%;
+	left: 42.3%;
+	color: white;
+	border: 2px solid white;
+	background-color: rgba(190, 190, 190, 0.5);
+	border-collapse: seperate;
+	border-spacing: 0px;
+	border-radius: 15px;
+	filter: blur(0.5px);
+}
+
+.dTable tr{
+	font-family: 'thin';
+	text-align: center;
+	outline:1px solid white;
+	font-size: 28px;
+	
+}
+	

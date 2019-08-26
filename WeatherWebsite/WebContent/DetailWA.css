@@ -1,0 +1,243 @@
+@charset "UTF-8";
+@font-face {
+	font-family: 'thin';
+	src: url('A3Images/AvenirNext/AvenirNext-UltraLight.ttf') format('truetype');
+}
+
+#map {
+	position: absolute;
+	top: 18%;
+	left: 12%;
+	height: 68%;
+	width: 75%;
+	z-index: 1;
+}
+#search::placeholder{
+	color:#424244;
+}
+#lat::placeholder{
+	color:#424244;
+}
+#lng::placeholder{
+	color:#424244;
+}
+
+input[type=image]#gmap{
+	border-radius: 5px;
+	height: 5.5%;
+	width: 3.1%;
+	position: fixed;
+    top: 2.2%;
+    left: 89%;
+}
+
+.imgGlobe{
+	position: fixed;
+	top: 28%;
+	left: 15%;
+}
+
+.imgGlobe h3{
+	position: fixed;
+	top: 43%;
+	left: 15.8%;
+	color: white;
+	font-size: 30px;
+	font-family: thin;
+}
+
+#state1:focus {outline:0;}
+#country1:focus {outline:0;}
+#loc1:focus {outline:0;}
+#state1{
+	font-family: "thin";
+	position: fixed;
+	top: 30%;
+	left: 15%;
+}
+#country1{
+	font-family: "thin";
+	position: fixed;
+	top: 36.5%;
+	left: 18%;
+}
+
+.imgSnow{
+	position: fixed;
+	top: 28%;
+	left: 35%;
+}
+
+.imgSnow h3{
+	position: fixed;
+	top: 43%;
+	left: 35%;
+	color: white;
+	font-size: 30px;
+	font-family: thin;
+}
+
+#low1:focus {outline:0;}
+#lowTemp:focus {outline:0;}
+#lowTemp{
+	font-family: "thin";
+	position: fixed;
+	top: 34%;
+	left: 37%;
+}
+
+.imgSun{
+	position: fixed;
+	top: 28%;
+	left: 55%;
+}
+
+.imgSun h3{
+	position: fixed;
+	top: 43%;
+	left: 54.5%;
+	color: white;
+	font-size: 30px;
+	font-family: thin;
+}
+
+#high1:focus {outline:0;}
+#highTemp:focus {outline:0;}
+#highTemp{
+	font-family: "thin";
+	position: fixed;
+	top: 34%;
+	left: 57%;
+}
+
+.imgWind{
+	position: fixed;
+	top: 28%;
+	left: 75%;
+}
+
+.imgWind h3{
+	position: fixed;
+	top: 43%;
+	left: 76%;
+	color: white;
+	font-size: 30px;
+	font-family: thin;
+}
+
+#wind1:focus {outline:0;}
+#windSpeed:focus {outline:0;}
+#windSpeed{
+	font-family: "thin";
+	position: fixed;
+	top: 34%;
+	left: 71.7%;
+}
+
+.imgDrop{
+	position: fixed;
+	top: 58%;
+	left: 15%;
+}
+
+.imgDrop h3{
+	position: fixed;
+	top: 73%;
+	left: 15.5%;
+	color: white;
+	font-size: 30px;
+	font-family: thin;
+}
+
+#hum1:focus {outline:0;}
+#humidity:focus {outline:0;}
+#humidity{
+	font-family: "thin";
+	position: fixed;
+	top: 65%;
+	left: 17.5%;%;
+}
+
+.imgPin{
+	position: fixed;
+	top: 58%;
+	left: 35%;
+}
+
+.imgPin h3{
+	position: fixed;
+	top: 73%;
+	left: 34.5%;
+	color: white;
+	font-size: 30px;
+	font-family: thin;
+}
+#pin1:focus {outline:0;}
+#pinLat:focus {outline:0;}
+#pinLong:focus {outline:0;}
+#pinLat{
+	font-family: "thin";
+	position: fixed;
+	top: 61%;
+	left: 37%;
+}
+#pinLong{
+	font-family: "thin";
+	position: fixed;
+	top: 67%;
+	left: 37%;
+}
+
+.imgTemp{
+	position: fixed;
+	top: 58%;
+	left: 55%;
+}
+
+.imgTemp h3{
+	position: fixed;
+	top: 73%;
+	left: 53.5%;
+	color: white;
+	font-size: 30px;
+	font-family: thin;
+}
+
+#temp1:focus {outline:0;}
+#currTemp:focus {outline:0;}
+#currTemp{
+	font-family: "thin";
+	position: fixed;
+	top: 65%;
+	left: 56%;
+}
+
+.imgRise{
+	position: fixed;
+	top: 58%;
+	left: 75%;
+}
+
+.imgRise h3{
+	position: fixed;
+	top: 73%;
+	left: 74.3%;
+	color: white;
+	font-size: 30px;
+	font-family: thin;
+}
+#rise1:focus {outline:0;}
+#sunRise:focus {outline:0;}
+#sunSet:focus {outline:0;}
+#sunRise{
+	font-family: "thin";
+	position: fixed;
+	top: 61%;
+	left: 75%;
+}
+#sunSet{
+	font-family: "thin";
+	position: fixed;
+	top: 67.2%;
+	left: 75.2%;
+}

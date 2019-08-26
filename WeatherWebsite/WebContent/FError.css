@@ -1,0 +1,15 @@
+.error h5{
+	position: fixed;
+ 	top: 10%;
+	left: 5%;
+	color: red;
+	font-size: 20px;
+}
+
+.error h6{
+	position: fixed;
+ 	top: 15%;
+	left: 5%;
+	color: red;
+	font-size: 20px;
+}

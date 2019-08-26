@@ -1,0 +1,122 @@
+@font-face {
+	font-family: 'thin';
+	src: url('A3Images/AvenirNext/AvenirNext-UltraLight.ttf') format('truetype');
+}
+
+#map {
+	position: absolute;
+	top: 18%;
+	left: 12%;
+	height: 68%;
+	width: 75%;
+	z-index: 1;
+}
+
+#lat::placeholder{
+	color:#e1e1e6;
+}
+
+#long::placeholder{
+	color:#e1e1e6;
+}
+
+input[type=image]#gmap{
+	border-radius: 5px;
+	height: 5.5%;
+	width: 3.1%;
+	position: fixed;
+    top: 61.1%;
+    left: 63%;
+}
+
+.img{
+	position: fixed;
+    top: 25%;
+    left: 37.3%;
+}
+
+input[type=text]#lat{
+	border: 1px solid white;
+	font-style: italic;
+	text-align: left;
+	width: 12%;
+	line-height:2.5em;
+    color: #edf0f8;
+    font-size: 16px;
+    padding: 0px;
+    background-color: grey;
+    opacity: 0.8;
+    position: fixed;
+    top: 61%;
+    left: 36%;
+}
+
+input[type=text]#long{
+	border: 1px solid white;
+	font-style: italic;
+	text-align: left;
+	width: 12%;
+	line-height:2.5em;
+    color: #edf0f8;
+    font-size: 16px;
+    padding: 0px;
+    background-color: grey;
+    opacity: 0.8;
+    position: fixed;
+    top: 61%;
+    left: 50%;
+}
+
+.bubbles h2{
+	font-family: 'thin';
+	color: white;
+	font-size: 16px;
+	position: fixed;
+    top: 66.2%;
+    left: 42%;
+}
+
+.bubbles h3{
+	font-family: 'thin';
+	color: white;
+	font-size: 16px;
+	position: fixed;
+	top: 65.8%;
+    left: 49.1%;
+}
+
+#bubb1{
+    position: fixed;
+    top: 68%;
+    left: 40%;
+}
+
+#bubb2{
+    position: fixed;
+    top: 68%;
+    left: 47%;
+}
+
+input[type=image]#search{
+	height: 4%;
+	width: 2.7%;
+	position: fixed;
+    top: 61.8%;
+    left: 59%;
+}
+
+input[type=submit]#city{
+	border-radius: 4px;
+	border: 0.5px solid white;
+	text-align: center;
+	width: 9%;
+	height: 4%;
+    color: white;
+    padding: 0px;
+    background-color: grey;
+    opacity: 0.8; 
+    position: fixed;
+    top: 74%;
+    left: 44.8%;
+    font-size: 16px;
+}

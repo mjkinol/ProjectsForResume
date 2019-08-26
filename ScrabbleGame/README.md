@@ -1,0 +1,58 @@
+- Name: Mark Kinol
+- USC ID: 4940583716
+- Email: kinol@usc.edu
+- 
+- scrabble.cpp:
+- This file is contains the main function that actually utilizes all of 
+- the classes to run a functioning game of scrabble. 
+-
+- Makefile:
+- Makefile is used by typing "make" in terminal.
+-
+- Dictionary.h:
+- Headerfile for Dictionary.cpp.
+-
+- Dictionary.cpp:
+- Class used to establish a dictionary and to check if words
+- are legal.
+-
+- Tile.h:
+- Holds class that represents tiles. I did not edit this class.
+-
+- Square.h:
+- Holds class for Sqaures. I did not edit this class.
+-
+- Bag.h and Bag.cpp:
+- Class uses to represent the bag in scrabble. I did not edit this.
+-
+- Move.h:
+- Headerfile for move class that represents players desired moves.
+-
+- Move.cpp:
+- Defines the functions for the move class and how they should be executed.
+-
+- Player.h:
+- Header file for player class.
+-
+- Player.cpp:
+- Here I created the need variables and functions to establish a use class of
+- player information and player functions.
+-
+- Board.h:
+- Header file for board class, which did the majority of the work in this game.
+-
+- Board.cpp:
+- Holds the most substantial functions in the project, such as getPlaceMoveResults.
+-
+- Exceptions.h:
+- This is a file for exceptions that I did not use.
+-
+- ConsolePrinter.h and ConsolePrinter.cpp and rang.h:
+- All files that were provided, which I did not edit.
+-
+-
+-
+-
+-
+-
+-

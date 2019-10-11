@@ -15,7 +15,7 @@ public class WeatherSQLFunc {
 		ResultSet rs = null;
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
-			conn = DriverManager.getConnection("jdbc:mysql://localhost/WeatherAssignment3?user=root&password=doghot&useSSL=false");
+			conn = DriverManager.getConnection("jdbc:mysql://localhost/WeatherAssignment3?user=root&password=???&useSSL=false");
 			st = conn.createStatement();
 			rs = st.executeQuery("Select * from Account Where username='" + user + "'");
 			if(!rs.next()) {

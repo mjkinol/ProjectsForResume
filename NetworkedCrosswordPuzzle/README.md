@@ -1,1 +1,3 @@
-# This code holds a game that is a networked crossword puzzle that can be played by 1-4 players. You can enter a text file with a list of ACROSS and DOWN words and the code uses backtracking to automatically render a board with the given words if possible.
+# Networked Crossword Puzzle 
+
+A networked crossword puzzle that can be played by 1-4 players. You can provide any text file with a list of ACROSS and DOWN words. A backtracking algorithm then automatically renders a valid board with the given words if possible. Users can then play compete against each other in the game.
